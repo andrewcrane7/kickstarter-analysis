@@ -1,2 +1,9 @@
 # kickstarter-analysis
 Performing analysis on Kickstarter data to uncover trends
+For this project, we were comparing theatrical releases from years past and assessing whether or not these releases were deemed successful based on donations towards the projects versus the amount pledged.  The various productions were based on several criteria including category of the performance, date released, country of origin, as well as an accompanying blurb on the show.
+
+On the first portion of this project, we were attempting to determine when the best month is for a theatrical release to be released.  To do this, we created a pivot table off of the master data file and based it on 3 criteria—successful campaigns, failed campaigns, and canceled campaigns (live campaigns were removed with a filter).  For the corresponding rows we went by month and we were only looking at the data for theater, which was filtered through the pivot table.   At the end we graphed the data using a line graph and compared the three results.
+
+On the second portion of the project, we were attempting to determine the amount of pledged money it took for a play to be deemed successful.  We did this by using the countif function to check the total amount of projects broken out by successful, failed, or canceled.  We grouped these in increments of $5000, then took the percentage of the total projects by successful, failed, and canceled.
+
+Based on the data, the majority of the Theater performances were successful vs unsuccessful, by a nearly 2 to 1 ratio.  April to June were the best time for theatrical releases, while November to January were the slowest.  For the amount of money needed to be successful, the more money pledged directly resulted in a higher success rate.  There was 100% success rate for the performances with the money pledged over $15,000.
